@@ -22,7 +22,7 @@ mysql -u root -p < create_database_schema.sql
 - Open `src/main/java/com/ecommerce/DBConnection.java`
 - Update the following if your MySQL credentials are different:
   - `USER = "root"`
-  - `PASS = "Archit@123"` 
+  - `PASS = "your_password"` 
   - `URL = "jdbc:mysql://localhost:3306/ecommerce_db"`
 
 ### 2. ONE-TIME SETUP
